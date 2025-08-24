@@ -12,6 +12,42 @@
     />
     <title>Document</title>
   </head>
+  <style>
+    .navbar {
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .nav-link {
+      text-decoration: none;
+      color: #555555;
+    }
+  </style>
 
-  <body></body>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div>
+          <img src="./logo.png" alt="logo" height="60px" width="60px" />
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#">About</a></li>
+            <li><a class="nav-link" href="#">Services</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
