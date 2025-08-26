@@ -12,42 +12,47 @@
     />
     <title>Document</title>
   </head>
-  <style>
-    .navbar {
-      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 20px;
-      color: white;
-      font-family: "Poppins", sans-serif;
-    }
-    .nav-links {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-    .nav-link {
-      text-decoration: none;
-      color: #555555;
-    }
-  </style>
 
   <body>
     <header>
       <nav class="navbar">
-        <div>
-          <img src="./logo.png" alt="logo" height="60px" width="60px" />
-        </div>
-        <div>
-          <ul class="nav-links">
-            <li><a class="nav-link" href="#">Home</a></li>
-            <li><a class="nav-link" href="#">About</a></li>
-            <li><a class="nav-link" href="#">Services</a></li>
-            <li><a class="nav-link" href="#">Contact</a></li>
-          </ul>
+        <img
+          src="./logo.png"
+          alt="Header Logo"
+          height="80px"
+          width="80px"
+          class="img-logo"
+        />
+
+        <div class="nav-links">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Services</a>
+          <a href="#" class="nav-link">Contact</a>
         </div>
       </nav>
     </header>
+
+    <section class="main-section">
+      <div class="left-text-box">
+        <h1 class="h1-heading">Mohamed Rasith</h1>
+        <p class="p-text">
+          I am an experienced Full-stack Developer and UI/UX Designer with Five
+          years plus experience building and designing websites and web apps
+          from scratch. HTML, CSS, SCSS, Javascript, Angular, Nodejs, Reactjs,
+          Mongo DB, and Framework are the field of my expertise when it comes to
+          building websites and web apps. I deal with servers as well. I am
+          flawless using Figma, Adobe XD, and Photoshop for the design.
+          Photography is also one of the skills I use in my design.
+        </p>
+
+        <a href="https://github.com/rasithirsath" class="git-link"
+          >GITHUB &rAarr;</a
+        >
+      </div>
+      <div class="right-img-box">
+        <img src="./img-1.jpg" alt="" class="author" />
+      </div>
+    </section>
   </body>
 </html>

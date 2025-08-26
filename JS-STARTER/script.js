@@ -2,7 +2,7 @@
 
 //////////////////
 //////// DOM MANIPULATION
-/*
+
 const btn = document.querySelector(".changeBgBtn");
 console.log(btn);
 
@@ -24,7 +24,3 @@ btn.addEventListener("click", function () {
   // Update heading text with the RGB value
   heading.textContent = rgbColor;
 });
-*/
-
-//////////////////
-//////// JAVASCRIPT FUNDAMENTALS
